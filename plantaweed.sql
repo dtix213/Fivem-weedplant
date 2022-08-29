@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données : `coverland`
+
 --
 
 -- --------------------------------------------------------
@@ -42,7 +42,6 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 
-USE `essentialmode`;
 
 INSERT INTO `items` (`name`, `label`, `limit`, `rare`, `can_remove`) VALUES
 	('graineweed', 'Graine de wwed', 10, 0, 1)
