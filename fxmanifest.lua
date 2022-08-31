@@ -5,10 +5,19 @@ game 'gta5'
 description 'Plantation de weed'
 
 client_scripts {
-	'client/cl-weedp.lua',
+    '@es_extended/locale.lua',
+    'client/cl-weedp.lua',
 }
 
 server_scripts { 
-	'@Extended/lib/MySQL.lua',
-	'server/sv-weedp.lua', 
+    '@async/async.lua',
+    '@es_extended/locale.lua',
+    '@mysql-async/lib/MySQL.lua',
+    'server/sv-weedp.lua', 
+}
+
+dependencies {
+    'async',
+    'es_extended',
+    'mysql-async'
 }
